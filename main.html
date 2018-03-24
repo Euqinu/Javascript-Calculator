@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1 id="heading">Javascript Calculator</h1>
+<div class="container">
+	
+	<form name="formgroup" id="top">
+		<input type="text" name="displayup" value=""  id="displayu" />
+		<input type="text" name="displaydown" value="0" id="displayd"/><br>
+	</form>
+	<div class="buttongroup" id="buttons">
+		<button type="button" id="buttonclear" onclick="opclear();">C</button>
+		<button id="button1" onclick="number1();"> 1 </button>
+		<button type="button" id="button2" onclick="number2();"> 2 </button>
+		<button type="button" id="button3" onclick="number3();"> 3 </button>
+		<button type="button" id="button4" onclick="number4();"> 4 </button>
+		<button type="button" id="button5" onclick="number5();"> 5 </button>
+		<button type="button" id="button6" onclick="number6();"> 6 </button>
+		<button type="button" id="button7" onclick="number7();"> 7 </button>
+		<button type="button" id="button8" onclick="number8();"> 8 </button>
+		<button type="button" id="button9" onclick="number9();"> 9 </button>
+		<button type="button" id="button0" onclick="number0();"> 0 </button>
+
+		<button type="button" id="buttonplus" onclick="opplus();"> + </button>
+		<button type="button" id="buttonminus" onclick="opminus();"> - </button>
+		<button type="button" id="buttonmulti" onclick="opmulti();"> x </button>
+		<button type="button" id="buttondiv" onclick="opdiv();"> / </button>
+
+		
+		<button type="button" id="buttonpower" onclick="oppower();">^</button>
+		<button type="button" id="buttondozero" onclick="opdozero();">00</button>
+		<button type="button" id="buttonequal" onclick="opequal();"> = </button>
+		
+	</div>
+	
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
